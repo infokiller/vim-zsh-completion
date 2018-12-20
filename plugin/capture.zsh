@@ -23,7 +23,7 @@ PROMPT=
 
 # load completion system
 autoload compinit
-compinit -d ~/.zcompdump_capture
+compinit -d ~/.cache/zsh/zcompdump_vim_capture
 
 # never run a command
 bindkey ''^M'' undefined
